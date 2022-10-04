@@ -268,6 +268,7 @@ header {
 
 .quattro .row {
     margin-top: 100px;
+    margin-bottom: 110px;
 
 }
 
@@ -277,7 +278,7 @@ header {
 
 }
 
-.quattro .row .col-img{
+.quattro .row .col-img {
     flex-basis: 60%;
     margin-right: 40px;
 }
@@ -302,4 +303,40 @@ header {
     margin-bottom: 30px;
     border: solid 1px rgb(141 141 141);
     width: 60%;
+}
+
+
+.five h2 {
+    margin-bottom: 40px;
+}
+
+.five h3 {
+    margin-top: 10px;
+    font-size: 1.4rem;
+    margin-bottom: 30px;
+}
+
+.five p {
+    font-size: 1rem;
+    color: rgb(141 141 141);
+}
+
+.five .cards {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+
+.five .card {
+    flex-basis: 30%;
+    margin-bottom: 50px;
+    border: 0;
+
+}
+
+.five .card img {
+    width: 100%;
+    display: block;
+    object-fit: cover;
 }
