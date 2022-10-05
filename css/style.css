@@ -257,14 +257,14 @@ header {
 }
 
 /* text link */
-#link {
+.link {
     text-decoration: underline;
     color: blue;
 
 }
 
 /* text link hover  */
-#link:hover {
+.link:hover {
     font-weight: bold;
 }
 
@@ -431,6 +431,7 @@ header {
 .seven .row .col-center {
     padding: 40px;
     flex-basis: 50%;
+    background-color: rgb(245 245 245);
 
 
 }
@@ -460,8 +461,33 @@ header {
 
 }
 
+.bg-color1 {
+    background-color: rgb(235 59 47);
+}
 
+.bg-color2 {
+    background-color: rgb(62 146 201);
+}
 
+.bg-color3 {
+    background-color: rgb(16 39 124);
+}
+
+.bg-color4 {
+    background-color: rgb(249 216 86);
+}
+
+.bg-color5 {
+    background-color: rgb(185 207 229);
+}
+
+.bg-color6 {
+    background-color: rgb(172 209 160);
+}
+
+.bg-color7 {
+    background-color: rgb(89 19 43);
+}
 
 
 
